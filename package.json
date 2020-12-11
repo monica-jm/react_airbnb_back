@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "prebuild":"cd ../airbnb-front && yarn build",
-    "build":"cp -r ../airbnb-front/build/ public/"
+    "prearmado":"cd ../airbnb-front && yarn build",
+    "armado":"cp -r ../airbnb-front/build/ public/"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
